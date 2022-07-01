@@ -25,13 +25,13 @@ video_mask = mask_file.read()
 bloodcell_file = open(file='videos/BloodCell_Detector.mp4',mode='rb') #enter the filename with filepath
 video_bloodcell = bloodcell_file.read()
 
-Img_Digit1 = Image.open("/app/streamlit-profile_page/images/gen1.png")
-Img_Digit2 = Image.open("/app/streamlit-profile_page/images/gen2.png")
-Img_Digit3 = Image.open("/app/streamlit-profile_page/images/gen3.png")
+Img_Digit1 = Image.open("images/gen1.png")
+Img_Digit2 = Image.open("images/gen2.png")
+Img_Digit3 = Image.open("images/gen3.png")
 
-Img_Color1 = Image.open("/app/streamlit-profile_page/images/color1.png")
-Img_Color2 = Image.open("/app/streamlit-profile_page/images/color2.png")
-Img_Color3 = Image.open("/app/streamlit-profile_pageimages/color3.png")
+Img_Color1 = Image.open("images/color1.png")
+Img_Color2 = Image.open("images/color2.png")
+Img_Color3 = Image.open("images/color3.png")
 
 Img_Res1 = Image.open("images/res1.png")
 Img_Res2 = Image.open("images/res2.png")
