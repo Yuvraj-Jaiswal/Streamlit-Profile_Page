@@ -19,10 +19,10 @@ load_css("style/style.css")
 
 lottie_coding = load_lottie("https://assets8.lottiefiles.com/packages/lf20_vnikrcia.json")
 lottie_contact = load_lottie("https://assets8.lottiefiles.com/packages/lf20_isbiybfh.json")
-mask_file = open('videos/Mask_detector.mp4',mode='rb') #enter the filename with filepath
+mask_file = open(file='videos/Mask_detector.mp4',mode='rb') #enter the filename with filepath
 video_mask = mask_file.read()
 
-bloodcell_file = open('videos/BloodCell_Detector.mp4',mode='rb') #enter the filename with filepath
+bloodcell_file = open(file='videos/BloodCell_Detector.mp4',mode='rb') #enter the filename with filepath
 video_bloodcell = bloodcell_file.read()
 
 Img_Digit1 = Image.open("/app/streamlit-profile_page/images/gen1.png")
