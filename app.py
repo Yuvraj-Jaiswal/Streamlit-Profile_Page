@@ -22,7 +22,7 @@ lottie_contact = load_lottie("https://assets8.lottiefiles.com/packages/lf20_isbi
 mask_file = open('videos/Mask_detector.mp4') #enter the filename with filepath
 video_mask = mask_file.read()
 
-bloodcell_file = open('app/streamlit-profile_page/videos/BloodCell_Detector.mp4', 'rb') #enter the filename with filepath
+bloodcell_file = open('videos/BloodCell_Detector.mp4') #enter the filename with filepath
 video_bloodcell = bloodcell_file.read()
 
 Img_Digit1 = Image.open("/app/streamlit-profile_page/images/gen1.png")
