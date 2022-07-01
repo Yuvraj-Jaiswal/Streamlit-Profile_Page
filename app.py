@@ -19,19 +19,19 @@ load_css("style/style.css")
 
 lottie_coding = load_lottie("https://assets8.lottiefiles.com/packages/lf20_vnikrcia.json")
 lottie_contact = load_lottie("https://assets8.lottiefiles.com/packages/lf20_isbiybfh.json")
-mask_file = open('videos/Mask_detector.mp4', 'rb') #enter the filename with filepath
+mask_file = open('/app/streamlit-profile_page/videos/Mask_detector.mp4', 'rb') #enter the filename with filepath
 video_mask = mask_file.read()
 
-bloodcell_file = open('videos/BloodCell_Detector.mp4', 'rb') #enter the filename with filepath
+bloodcell_file = open('/app/streamlit-profile_page/videos/BloodCell_Detector.mp4', 'rb') #enter the filename with filepath
 video_bloodcell = bloodcell_file.read()
 
-Img_Digit1 = Image.open("images/gen1.png")
-Img_Digit2 = Image.open("images/gen2.png")
-Img_Digit3 = Image.open("images/gen3.png")
+Img_Digit1 = Image.open("/app/streamlit-profile_page/images/gen1.png")
+Img_Digit2 = Image.open("/app/streamlit-profile_page/images/gen2.png")
+Img_Digit3 = Image.open("/app/streamlit-profile_page/images/gen3.png")
 
-Img_Color1 = Image.open("images/color1.png")
-Img_Color2 = Image.open("images/color2.png")
-Img_Color3 = Image.open("images/color3.png")
+Img_Color1 = Image.open("/app/streamlit-profile_page/images/color1.png")
+Img_Color2 = Image.open("/app/streamlit-profile_page/images/color2.png")
+Img_Color3 = Image.open("/app/streamlit-profile_pageimages/color3.png")
 
 Img_Res1 = Image.open("images/res1.png")
 Img_Res2 = Image.open("images/res2.png")
